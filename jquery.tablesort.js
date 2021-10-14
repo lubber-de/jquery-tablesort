@@ -108,8 +108,8 @@
 		desc: 'sorted descending',
 		compare: function(a, b) {
 			if(!isNaN(a) && !isNaN(b)){
-				a = parseInt(a);
-				b = parseInt(b);
+				a = parseFloat(a);
+				b = parseFloat(b);
 			}
 			if (a > b) {
 				return 1;
